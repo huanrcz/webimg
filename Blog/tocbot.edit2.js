@@ -234,7 +234,7 @@
             var o, l = t;
             if (m && null !== document.querySelector(e.tocSelector) && l.length > 0) {
                 d.call(l, function(t, i) {
-                    if (t.offsetTop > n + 810) {
+                    if (t.offsetTop > n + 610) {
                         return o = l[0 === i ? i : i - 1],
                         !0
                     }
